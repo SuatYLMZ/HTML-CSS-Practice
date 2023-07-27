@@ -1,0 +1,35 @@
+h1{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu ul{
+    padding: 0;
+    padding-left: 20px;
+    display: none;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.menu:hover ul{
+    display: block;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+button{
+    background-color: rgb(41, 40, 40);
+    color: white;
+    border: none;
+    display: inline-block;
+    padding: 5px 15px;
+}

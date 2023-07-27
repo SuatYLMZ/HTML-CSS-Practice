@@ -1,0 +1,61 @@
+:root {
+    font-size: 10px;
+}
+​
+body {
+    width: 1000px;
+    height: 1000px;
+    font-size: 16px;
+}
+​
+.box1 {
+    background-color: aqua;
+    width: 4cm;
+}
+.box2 {
+    background-color: red;
+    width: 50%;
+    height: 80%;
+}
+.box3 {
+    background-color: blueviolet;
+    height: 400px;
+    margin-bottom: 100px;
+}
+​
+.container {
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+}
+​
+.box4 {
+    background-color: black;
+    width: 50%;
+    height: 50%;
+}
+​
+.box5 {
+    background-color: brown;
+    width: 50%;
+    height: 50%;
+}
+​
+.viewport {
+    width: 50vw;
+    height: 50vh;
+    background-color: blueviolet;
+}
+​
+.parent-font {
+    font-size: 50px;
+}
+​
+.child-font {
+    /* 1em = 50px */
+    font-size: 2rem;
+}
+​
+.rem-font {
+    font-size: 2em;
+}

@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    margin: 50px 10px;
+}
+.box1 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 100px 50px 200px 10px;
+}
+.box2 {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    padding: 20px 100px 50px 10px;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    /* padding-left: 100px; */
+    margin: 100px;
+}

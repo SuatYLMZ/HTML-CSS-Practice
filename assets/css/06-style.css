@@ -1,0 +1,9 @@
+nav.side-menu{
+    background-color: lightgray;
+    text-align: center;
+}
+
+.active{
+    background-color: rgb(71, 55, 55);
+    color: white;
+}

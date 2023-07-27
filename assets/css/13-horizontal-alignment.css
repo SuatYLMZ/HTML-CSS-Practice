@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+}
+
+.container {
+    height: 200px;
+    background-color: darkkhaki;
+}
+
+.content {
+    text-align: center;
+    background-color: lightblue;
+    width: 200px;
+    height: 50px;
+    /* margin-left: auto;
+    margin-right: 0; */
+    /* margin: 0 0 0 auto; */
+    margin: 0 auto;
+}
+
+span {
+    background-color: red;
+    display: inline; /* this is default behaviour for display property */
+}
+
+.block-element {
+    background-color: lightgreen;
+    display: block; /* this is default behaviour for display property */
+}

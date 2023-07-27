@@ -1,0 +1,29 @@
+:root {
+    --color1: rgb(39, 122, 141);
+    --color2: rgb(69, 26, 210);
+    --color3: rgb(195, 68, 68);
+}
+
+h1 {
+    color: var(--color3);
+}
+
+p {
+    color: var(--color1);
+}
+
+li {
+    color: var(--color1);
+}
+
+h2 {
+    color: var(--color1);
+}
+
+h3 {
+    color: var(--color1);
+}
+
+h3:hover {
+    color: var(--color2);
+}

@@ -1,0 +1,47 @@
+h1 {
+    color: red;
+}
+
+.menu a:active {
+    color: aquamarine;
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+.menu a:visited {
+    color: orange;
+}
+
+.menu a:focus {
+    color: red;
+}
+
+.focus:focus {
+    outline: 1px solid red;
+}
+
+.check:checked {
+    outline: 5px solid red;
+}
+
+.menu a:last-child {
+    color: violet;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    color: red;
+}
+
+ul li:nth-child(odd) {
+    color: turquoise;
+}
+
+ul li:nth-child(even) {
+    color: rebeccapurple;
+}

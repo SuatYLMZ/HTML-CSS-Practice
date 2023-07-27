@@ -1,0 +1,37 @@
+h1 {
+    color: blueviolet;
+}
+
+.firstLetter::first-letter {
+    font-size: 4rem; /* 3 times the size of root font-size which is 16px */
+    color: orange;
+    font-style: italic;
+}
+
+.firstLine::first-line {
+    font-size: 1.5rem;
+    background-color: beige;
+    color: blue;
+}
+
+p::selection {
+    background-color: red;
+    color: white;
+}
+
+ul.menu li::marker {
+    color: rgb(154, 66, 66);
+    font-size: 0.5rem;
+}
+
+.pseudoElements::before {
+    content: "[";
+    color: red;
+    font-size: 1.5rem;
+}
+
+.pseudoElements::after {
+    content: "]";
+    color: red;
+    font-size: 1.5rem;
+}

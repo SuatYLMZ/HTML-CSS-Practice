@@ -1,0 +1,21 @@
+*{
+    color: aqua ;
+}
+
+/* this is comment and it will be ignored */
+
+h1{
+    color: green;
+}
+
+h1.title{
+    color: blueviolet;
+}
+
+.center{
+    text-align: center;
+}
+
+h1.title.center{
+    color: darkmagenta;
+}
